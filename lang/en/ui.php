@@ -4,12 +4,15 @@ return[
 
     'textMasthead'=>'Start selling online. Start your success story, sell anything, anywhere, to anyone.',
      'articles'=>'Articles',
-     'buttonSearch'=>'Search',
+     'placeholderSearch'=>'Search product',
+    'buttonSearch' => 'Search',
      'reviewer'=>'Revision',
      'articleCreate'=>'Create your article',
     'sito'=>'E-presto',
     'announcements'=>'Our announcements',
     'insertAnnoucement'=>'Insert annoucement',
+    'insertProfileImg' => 'Insert profile photo',
+    'insertImg' => 'Insert',
 
     
 
@@ -83,7 +86,7 @@ return[
  
    'register'=>'Sign in',
  
-   'questionAccount'=>'Do you already have an account? log in',
+   'questionAccount'=>'Do you already have an account? Login',
 
    'here'=>'here',
 
@@ -114,7 +117,9 @@ return[
 
      'rejectArticle'=>'Ad rejected',
 
-     'images'=>'Enter images'
+     'images'=>'Enter images',
+
+     'noArticle' => "There aren't articles at the moment"
      
 
 

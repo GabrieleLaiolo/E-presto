@@ -17,9 +17,9 @@
             
             @empty
             <div class="col-12 my-5">
-                <h2 class="text-center">Non ci sono articoli al momento!</h2>
-                <p class="text-center">
-                    Crea un nuovo articolo <a href="{{route('article.create')}}">qui</a>
+                <h2 class="text-center text-light">{{__('ui.noArticle')}}</h2>
+                <p class="text-center text-light">
+                    {{__('ui.articleCreate')}} <a href="{{route('article.create')}}" class="text-white">{{__('ui.here')}}</a>
                 </p>
             </div>
             

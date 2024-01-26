@@ -2,7 +2,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Inserimento foto profilo</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">{{__('ui.insertProfileImg')}}</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <form id="profile_img" method="POST" enctype="multipart/form-data" action="{{route('profile-img-store')}}">
@@ -12,7 +12,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Inserisci foto</button>
+          <button type="submit" class="btn btn-primary">{{__('ui.insertImg')}}</button>
         </div>
       </form>
     </div>

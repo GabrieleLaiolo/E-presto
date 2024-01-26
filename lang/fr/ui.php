@@ -4,12 +4,17 @@ return[
 
     'textMasthead'=>'Commencez à vendre en ligne. Commencez votre success story, vendez n\'importe quoi, n\'importe où et à n\'importe qui.',
     'articles'=>'Des articles',
-    'buttonSearch'=>'Près',
+    'placeholderSearch'=>'Rechercher un produit',
+    'buttonSearch' => 'Près',
     'reviewer'=>'Révision',
     'articleCreate'=>'Créez votre article',
     'sito'=>'E-presto',
     'announcements'=>'Nos annonces',
     'insertAnnoucement'=>'Insère une annonce',
+    'insertProfileImg' => 'Insérer une photo de profil',
+    'insertImg' => 'Insérer',
+
+
 
 
 
@@ -114,7 +119,10 @@ return[
 
    'rejectArticle'=>'Annonce rejetée',
 
-   'images'=>'Entrer l\'images'
+   'images'=>'Entrer l\'images',
+
+  'noArticle' => "Il n'y a pas d'articles pour le moment"
+   
   
 
 

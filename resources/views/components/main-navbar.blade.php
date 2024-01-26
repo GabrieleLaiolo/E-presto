@@ -57,7 +57,7 @@
  
   
       <form class="d-flex bg-collapse me-3" action="{{route('articles.search')}}" method="GET" role="search">
-        <input name="searched" id="searched" class="form-control me-2" type="search" placeholder="{{__('ui.buttonSearch')}}" aria-label="Search">
+        <input name="searched" id="searched" class="form-control me-2" type="search" placeholder="{{__('ui.placeholderSearch')}}" aria-label="Search">
         <button class="btn btn-outline-light" type="submit">{{__('ui.buttonSearch')}}</button>
       </form>
     </div>

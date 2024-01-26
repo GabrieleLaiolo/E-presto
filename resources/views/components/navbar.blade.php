@@ -1,23 +1,26 @@
 
 <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
   <div class="d-flex justify-content-end m-3"><button type="button" class="btn-close btn-close-white  " data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
+
   @auth
-  <div class="d-flex justify-content-center icon-profile-custom"><img class="UserImg my-4"
+  <div class="d-flex justify-content-center icon-profile-custom">
+    <img class="UserImg p-0"
     @if(Auth::user()->profile) src="{{Storage::url(Auth::user()->profile->profile_img)}}"
     @else src="{{Storage::url('public/image/default-profile-img.png')}}"
     @endif
-    alt="Immagine utente"></div>
+    alt="Immagine utente">
+  </div>
    <div class="position-icon-profile"><button type="button" class="btn btn-light   size-custom-profile custom-size-profileicon" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-pencil "></i></div>
-    
   </button>
   @endauth
 
   <div class="offcanvas-header d-flex justify-content-center mb-3"> 
+
     @auth
     <h5 class="offcanvas-title" id="offcanvasDarkLabel">{{Auth::user()->name}}</h5>
     @endauth
-    {{-- QUI INSERIREMO IMG DELL'UTENTE INTATO NOME--}}
-    
+
+    {{-- QUI INSERIREMO IMG DELL'UTENTE--}}
     
   </div>
   <div class="offcanvas-body">
@@ -29,19 +32,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            {{-- <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="{{route('homepage')}}"><i class="fa-solid fa-house fs-5"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="{{route('article.index')}}">Tutti gl'articoli</a>
-            </li> --}}
+
             @auth 
-            
-            
             <li class="nav-item dropdown custom">
               <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-regular fa-user fs-5"></i> {{Auth::user()->name}}</a>
-              
-              
               
               <ul class="dropdown-menu">
                 <li>

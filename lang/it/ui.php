@@ -4,12 +4,17 @@ return[
 
     'textMasthead'=>'Inizia a vendere online. Dai inizio alla tua storia di successo, vendi qualsiasi cosa, ovunque, a chiunque.',
     'articles'=>'Articoli',
-    'buttonSearch'=>'Cerca',
+    'placeholderSearch' => 'Cerca prodotto',
+    'buttonSearch' => 'Cerca',
     'reviewer'=> 'Revisione',
     'articleCreate'=>'Crea il tuo articolo',
     'sito'=>'E-presto',
     'announcements'=>'I nostri Annunci',
     'insertAnnoucement'=>'Inserisci annuncio',
+    'insertProfileImg' => 'Inserisci foto profilo',
+    'insertImg' => 'Inserisci',
+
+
 
 
     //CATEGORIE
@@ -111,7 +116,9 @@ return[
 
   'rejectArticle'=>'Annuncio rifiutato',
 
-  'images'=>'Inserisci immagini'
+  'images'=>'Inserisci immagini',
+
+  'noArticle' => "Non ci sono articoli al momento"
   
 
 
